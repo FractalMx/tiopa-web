@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Typography } from '@mui/material';
 import Building from '../components/Building';
-const Contact = () => {
+const Donations = () => {
   return (
     <Container>
       <Building/>
@@ -9,4 +9,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Donations;
