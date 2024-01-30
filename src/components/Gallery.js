@@ -60,7 +60,7 @@ const Gallery = () => {
   const handleCloseDialog = () => {
     setDialogOpen(false);
   };
-
+ 
  
   const handleImageLoad = () => {
     setIsLoading(false);
