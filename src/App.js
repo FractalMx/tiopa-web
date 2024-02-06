@@ -65,7 +65,7 @@ function App() {
      
       <Router>
         {/* <Header /> */}
-        <Building />
+        <Building /> 
         <CssBaseline />
         <Container style={{ maxWidth: '100%', padding: 0 }}>
           <Routes>
