@@ -203,7 +203,7 @@ const Header = () => {
                 Donaciones
               </MenuItem>
               <MenuItem
-                onClick={() => handleNavigate('/contact')}
+                onClick={() => handleNavigate('/contacto')}
                 className={styles.menuItem}
               >
                 Contacto

@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Galery from './pages/Galery';
 import Donations from './pages/Donations';
 import Contact from './pages/Contact';
+import Building from './components/Building';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import { CssBaseline, Container, useTheme } from '@mui/material';
@@ -63,7 +64,8 @@ function App() {
     <ThemeProvider theme={createTheme(theme)}>
      
       <Router>
-        <Header />
+        {/* <Header /> */}
+        <Building />
         <CssBaseline />
         <Container style={{ maxWidth: '100%', padding: 0 }}>
           <Routes>
