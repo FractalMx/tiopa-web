@@ -64,9 +64,9 @@ function App() {
     <ThemeProvider theme={createTheme(theme)}>
      
       <Router>
-        <Header /> 
-        {/* <Building /> */}
-        <CssBaseline />
+        {/* <Header />  */}
+        <Building /> 
+        {/* <CssBaseline />
         <Container style={{ maxWidth: '100%', padding: 0 }}>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -75,7 +75,7 @@ function App() {
             <Route path="/contacto" element={<Contact />} />
           </Routes>
         </Container>
-        <Footer />
+        <Footer /> */}
       </Router>
     </ThemeProvider>
   );
