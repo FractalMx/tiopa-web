@@ -1,0 +1,34 @@
+
+  
+
+  /* Info.css */
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 400px; /* Adjust the height as needed */
+  }
+  
+  .parallax-bg-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/Banner1.png');
+    background-size: cover;
+    z-index: -1;
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+  }
+  
+  .visible .parallax-bg-layer {
+    transform: translateY(-50%);
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity as needed */
+  }
+  
