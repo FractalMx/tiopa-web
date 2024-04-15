@@ -3,7 +3,7 @@ import { Box, Typography, Grid} from "@mui/material";
 
 import { Parallax } from "rc-scroll-anim";
 import backgroundImage4 from '../../img/tiopa-background-objetivo.png';
-import backgroundImagePhone4 from '../../img/tiopa-background-objetivo.png';
+import backgroundImagePhone4 from '../../img/tiopa-background-objetivo-phone.png';
 
 const GeneralGoal = ({isSmallScreen, language, theme}) => {
 

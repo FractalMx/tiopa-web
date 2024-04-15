@@ -6,18 +6,6 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import GeneralProvider  from './context/GeneralContext';
 //import RoutesComponent from './components/RoutesComponent/RoutesComponent';
 import { router } from "./routes.js";
- 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-import Home from './pages/Home';
-import Galery from './pages/Galery';
-import Donations from './pages/Donations';
-import Contact from './pages/Contact';
-import Building from './components/Building';
-import Header from './components/Header';
-
-import { CssBaseline, Container, useTheme } from '@mui/material';
-
 
 function App() {
   const theme = createTheme({
